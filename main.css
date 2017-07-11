@@ -1,0 +1,184 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #e9ebee;
+}
+
+
+#wrapper {
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 16px;
+     margin-bottom: 16px;
+
+}
+.box {
+  height: 1000px;
+  background-color: #e7e7e7;
+  border: 1px solid rgba(0,0,0,0.87);
+}
+
+/* Add Custom CSS Below this line */
+
+.container {
+  padding: 5px; 
+    height: 1000px;
+    
+  }
+  #main,#menu,#sidebar {
+    margin: 2px 2px 2px 2px;
+     height: 1000px;
+  }
+  #main { 
+    background-color:#e9ebee;
+   }
+
+  #menu { background-color: #e9ebee; }
+  #sidebar { background-color: #e9ebee; }
+  
+  header {
+   
+  background-color: #4267b2;
+
+}
+footer {
+  background-color: rgba(255,255,255,0.87);
+  
+}
+#header {
+  margin-top: -17px;
+    background-color: #4267b2;
+    color: white;
+}
+.white-text {
+  color: white !important;
+}
+.image1{
+  
+  height:23px;
+  width: 22px;
+  border-radius: 2px;
+}
+
+#header ul .glyphicon {
+    font-size: 15px;
+   
+}
+.image2{
+    float: right;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.badge{
+  background-color: red;
+  margin-top: -22px;
+  margin-left: -23px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar{
+    display: none;
+}
+#main::-moz-scrollbar{
+    display: none;
+}
+.pen{
+  color: black;
+}
+
+.btn1{
+  margin-left: 80%;
+  background-color: #4267b2;
+  color: white;
+}
+.left_badge{
+  float: right;
+  margin-top: 0px;
+  background-color: #e9ebee;
+  color: rgb(144, 148, 156);
+}
+.gap{
+  margin-left: -25px;
+}
+.blak{
+  color:black;
+}
+#info{
+  margin: 3px;
+  font-size: 11px;
+}
+#info_time{
+  margin-left: 26px;
+  margin-top: -20px;
+}
+.comment {
+    margin: 0;
+}
+.com{
+  margin: -10px 10px 0px 35px; 
+}
+.birthday{
+  text-align: center;
+  
+  border:1px solid rgb(204, 204, 204);
+  border-radius: 2px;
+  background-color: white;
+  margin: 2px;
+
+}
+.tab{
+  border:1px solid rgb(204, 204, 204);
+  margin: 2px;
+  background-color: white;
+}
+.lang{
+  border:0.8px solid rgb(204, 204, 204);
+  margin-top: -100px;
+  background-color: white;
+  border-radius: 2px;
+}
+#chat{
+  border: 1px solid rgb(204, 204, 204); 
+  position: fixed;
+  
+}
+.image_chat{
+  float: right;
+  border-radius: 50%;
+}
+.chat{
+  float: left;
+  font-size: 13px;
+}
+.searchbtn{
+  height: 23px;
+  background-color: #e9ebee;
+  margin-left: -7px;
+  margin-top: 8px;
+}
+.form-control{
+  margin-top: 8px;
+}
