@@ -143,14 +143,14 @@ footer {
 .birthday{
   text-align: center;
   
-  border:1px solid rgb(204, 204, 204);
-  border-radius: 2px;
+  border:1px solid rgba(204, 204, 204,0.7);
+  
   background-color: white;
   margin: 2px;
 
 }
 .tab{
-  border:1px solid rgb(204, 204, 204);
+  border:1px solid rgba(204, 204, 204,0.7);
   margin: 2px;
   background-color: white;
 }
@@ -161,7 +161,7 @@ footer {
   border-radius: 2px;
 }
 #chat{
-  border: 1px solid rgb(204, 204, 204); 
+  border: 1px solid rgba(204, 204, 204,0.7); 
   position: fixed;
   
 }
@@ -174,7 +174,6 @@ footer {
   font-size: 13px;
 }
 .searchbtn{
-  height: 23px;
   background-color: #e9ebee;
   margin-left: -7px;
   margin-top: 8px;
