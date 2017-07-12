@@ -85,6 +85,7 @@ footer {
   margin-top: -22px;
   margin-left: -23px;
 }
+
 .panel-body .glyphicon {
     margin-left: 10px;
     margin-right: 4px;
@@ -108,9 +109,8 @@ footer {
 .pen{
   color: black;
 }
-
 .btn1{
-  margin-left: 80%;
+  margin-left: 85%;
   background-color: #4267b2;
   color: white;
 }
@@ -180,4 +180,30 @@ footer {
 }
 .form-control{
   margin-top: 8px;
+}
+.pending_noti{
+  background-color: white;
+  border: 1px solid rgba(204, 204, 204,1);
+}
+
+.frnd_request{
+
+  border:1px solid rgba(204, 204, 204,0.7);
+   padding: 10px;
+   background-color: white;
+    width: 200%;
+}
+.confirm_btn{
+  background-color: rgb(66, 103, 178); 
+  color: white; 
+  float: right;
+  border-radius: 5px;
+
+}
+.noti{
+
+  border:1px solid rgba(204, 204, 204,0.7);
+   padding: 6px;
+   background-color: white;
+    width: 150%;
 }

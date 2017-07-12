@@ -37,7 +37,7 @@
 
                           <form class="navbar-form navbar-left">
                             <div class="form-group ">
-                              <input type="text" class="form-control" placeholder="Search Facebook" style="height: 27px;width: 393px;">
+                              <input type="text" class="form-control" placeholder="Search Facebook" style="height: 27px;width: 370px;">
                             </div>
                             <button type="submit" class="btn btn-default searchbtn" style="height: 27px;">
                                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
@@ -52,21 +52,66 @@
                             <li><a href="#" class="white-text gap">Anurag</a></li>
                             <li><a href="#" class="white-text">Home</a></li>
                             <!--for icons-->
-                            <li><a href="#" class="white-text"> 
-                            <span class="glyphicon glyphicon-user" aria-hidden="true">
-                            <span class="badge">10</span></span>
-                            </span>
-                            </a></li>
+                            
+                    <!-- friend request -->
+                             <li class="dropdown">
+                              <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+
+                              <span class="glyphicon glyphicon-user" area-hidden="true"></span>
+                              <span class="badge">8</span></a>
+                              
+                              <ul class="dropdown-menu">
+                                <div class="frnd_request"><img src="abhi.jpg"><a href="#">Abhishek</a><button class="confirm_btn">Confirm</button></a></div>
+
+                                <div class="frnd_request"><img src="anubhav.png"><a href="#">.Anubhav</a><button class="confirm_btn">Confirm</button></div>
+
+                                <div class="frnd_request"><img src="sak.jpg"><a href="#">.Sakshi</a><button class="confirm_btn">Confirm</button></div>
+
+                                <div class="frnd_request"><img src="parth.jpg"><a href="#">.Parth</a><button class="confirm_btn">Confirm</button></div>
+                                <div class="frnd_request"><img src="abhi.jpg"><a href="#">Abhishek</a><button class="confirm_btn">Confirm</button></a></div>
+
+                                <div class="frnd_request"><img src="anubhav.png"><a href="#">.Anubhav</a><button class="confirm_btn">Confirm</button></div>
+
+                                <div class="frnd_request"><img src="sak.jpg"><a href="#">.Sakshi</a><button class="confirm_btn">Confirm</button></div>
+
+                                <div class="frnd_request"><img src="parth.jpg"><a href="#">.Parth</a><button class="confirm_btn">Confirm</button></div>
+                               
+                              </ul>
+                            </li>
+                            <!-- friend request end-->
+                            
         
                             <li><a href="#" class="white-text">
                                 <span class="glyphicon glyphicon-envelope blak" aria-hidden="true">
                                 </span>
                             </a></li>
                             
-                            <li><a href="#" class="white-text">
-                                <span class="glyphicon glyphicon-globe" aria-hidden="true">
-                                <span class="badge">10</span></span>
-                            </a></li>
+                             <li class="dropdown">
+                              <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+
+                             
+                            <!-- notification in navbar -->
+                              <span class="glyphicon glyphicon-globe" area-hidden="true"></span>
+                              <span class="badge">8</span></a>
+                              
+                              <ul class="dropdown-menu">
+
+                                <div class="noti"><a href=""><img src="anubhav.png"> Anubhav commented on your photo</a></div>
+
+                                <div class="noti"><a href="#"><img src="sak.jpg">.Sakshi commented on your video</a></div>
+
+                                <div class="noti"><a href="#"><img src="parth.jpg">.Parth commented on your video</a></div>
+                                <div class="noti"><a href="#"><img src="abhi.jpg">Abhishek liked your post</a></a></div>
+
+                                <div class="noti"><a href="#"><img src="anubhav.png">.Anubhav commented on your photo</a></div>
+
+                                <div class="noti"><a href="#"><img src="sak.jpg">.Sakshi commented on your photo</a></div>
+
+                                <div class="noti"><a href="#">See All <span class="caret"></span></a></div>
+                               
+                              </ul>
+                            </li>
+                            <!-- end of noti -->
                             
                             <li><a href="#" class="white-text">
                                 <span class="glyphicon glyphicon-question-sign blak" aria-hidden="true"></span>
@@ -196,7 +241,7 @@
                         </div>
                       </div>
                       <div class="panel-footer">
-                        <p class="comment"><img src="anubhav.png"> <span><a href="#" class="name_comment">Abhishek Mishra </a></span> Wow, really?keep going </p>
+                        <p class="comment"><img src="anubhav.png"> <span><a href="#" class="name_comment">Abhishek Mishra </a></span>keep going </p>
                         <div class="com"><small> <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span></small>
                         
                       </div>
@@ -407,8 +452,7 @@
                         <li><a href="#">Virat Kohli</a><h6>Decission to name a new coach...-hindustantimes</h6></li>
                         <li><a href="#"> Air India</a><h6>No non-veg food...-hindustantimes</h6></li>
                         <li><a href="#"> IIT</a><h6>Supreme court vacates...-msn</h6></li>
-                        <li><a href="#">Donald Trump Jr</a><h6>Trump son push back on...-hindustantimes</h6></li>
-                        <li><a href="#">Unesco</a><h6>Ahmedabad...-hindustantimes</h6></li>
+                        
                       </ul>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="politics">
@@ -442,11 +486,19 @@
                 </div>
                  	
                  </div>
+                 <!-- for notification below news politics -->
+                  <div class="pending_noti">
+                <div style="padding: 5px;"><img src="parth.jpg">Parth commented.....</div>
+                 <div style="padding: 5px;"><img src="abhi.jpg">Abhishek commented.....</div>
+                 <div style="padding: 5px;"><img src="rahu.jpg">Rahul commented.....</div>
+                 <div style="padding: 5px;"><img src="anubhav.png">Anubhav commented.....</div>
+                 <div style="padding: 4px;"><a href="#"><b>See more</b><span class="caret"></span></a></div>
+                </div>
                  </div>
                <!-- for languages available below news in third coloumn-->
 
                  <div class="lang">
-                 <p><h5>.English(US)-<a href="#"> Hind</a>-<a href="#"> Marathi</a>-<a href="#"> .Gujrati-</a>
+                 <p><h5>.English(US)-<a href="#"> हिन्दी</a>-<a href="#"> Marathi</a>-<a href="#"> .Gujrati-</a>
                  <a href="#">More+</a></h5></p>
                  </div>
                  </div>
