@@ -207,3 +207,8 @@ footer {
    background-color: white;
     width: 150%;
 }
+/*body {overflow-x: hidden;}=>can also use this to remove horizontal bar*/
+.no-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important; 
+}
