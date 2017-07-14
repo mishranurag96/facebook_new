@@ -146,7 +146,7 @@ footer {
   border:1px solid rgba(204, 204, 204,0.7);
   
   background-color: white;
-  margin: 2px;
+  margin: 1px;
 
 }
 .tab{
@@ -192,6 +192,7 @@ footer {
    padding: 10px;
    background-color: white;
     width: 200%;
+
 }
 .confirm_btn{
   background-color: rgb(66, 103, 178); 
@@ -211,4 +212,12 @@ footer {
 .no-container {
     margin-left: 0 !important;
     margin-right: 0 !important; 
+}
+#glyph{
+  padding: 4px 4px 0px 4px;
+  height: 14px;
+  width: 14px;
+}
+ul{
+  list-style: none;
 }
