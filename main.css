@@ -221,3 +221,38 @@ footer {
 ul{
   list-style: none;
 }
+#form_mobile{
+  height: 25px;
+  width: 350px;
+}
+.searchbtn{
+  height: 25px;
+}
+@media screen and (max-width: 700px) {
+  
+  #form_mobile{
+    
+    width:100%;
+    
+
+  }
+  .searchbtn{
+    float: right;
+    margin-top: -30px;
+    height: 25px;
+     
+  }
+  #nav_mobile{
+    float: none;
+    display: block;
+    margin-left: 45%;
+    margin-right: 45%;
+  }
+  .badge{
+  background-color: red;
+  margin-top: -70px;
+  
+}
+
+
+}
