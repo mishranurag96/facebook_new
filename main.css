@@ -251,7 +251,7 @@ ul{
   .nav-pills1{
 
     float: none;
-    display: inline-flex;
+    display: block;
     
   }
   .badge{
@@ -265,14 +265,18 @@ ul{
 .drop{
   visibility: hidden;
 }
-.image_nav{
-  visibility: hidden;
-}
-.nav_name{
+.glyphicon-globe{
   visibility: hidden;
 }
 .badge{
   visibility: hidden;
+}
+.glyphicon-envelope{
+  margin-left: -25px;
+}
+.frnd_request{
+  visibility: hidden;
+  display: none;
 }
 
 
