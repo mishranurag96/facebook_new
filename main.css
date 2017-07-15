@@ -251,7 +251,7 @@ ul{
   .nav-pills1{
 
     float: none;
-    display: inline;
+    display: inline-flex;
     
   }
   .badge{
