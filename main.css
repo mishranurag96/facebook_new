@@ -281,3 +281,12 @@ ul{
 
 
 }
+textarea.form-control:hover, textarea.form-control:active 
+{
+  font-size: 250%;
+  transition: 0.3s; 
+  background-color:#D3D3F5;
+  border: 1px solid blue;
+}
+
+ul li:hover ul {display: block;}
