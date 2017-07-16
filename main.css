@@ -266,7 +266,8 @@ ul{
   visibility: hidden;
 }
 .glyphicon-globe{
-  visibility: hidden;
+  
+  display: none;
 }
 .badge{
   visibility: hidden;
@@ -276,6 +277,10 @@ ul{
 }
 .frnd_request{
   visibility: hidden;
+  display: none;
+}
+
+.noti{
   display: none;
 }
 
