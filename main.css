@@ -159,7 +159,7 @@ footer {
 }
 .lang{
   border:0.8px solid rgb(204, 204, 204);
-  margin-top: -100px;
+  /*margin-top: -100px;*/
   background-color: white;
   border-radius: 2px;
 }
@@ -289,7 +289,7 @@ ul{
 textarea.form-control:hover, textarea.form-control:active 
 {
   font-size: 250%;
-  transition: 0.3s; 
+  transition: 1s; 
   background-color:#D3D3F5;
   border: 1px solid blue;
 }
